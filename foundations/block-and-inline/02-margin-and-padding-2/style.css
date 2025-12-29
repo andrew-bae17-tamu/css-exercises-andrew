@@ -23,6 +23,7 @@ body {
     Padding: top/bottom, right/left
   */
   padding: 16px 8px;
+  margin: 8px 0;
 }
 
 .button-container {
@@ -39,9 +40,4 @@ button {
   padding: 8px 24px;
   margin-left: auto;
   margin-right: auto;
-
-}
-
-.title, .content, .button-container {
-  margin-bottom: 8px;
 }
