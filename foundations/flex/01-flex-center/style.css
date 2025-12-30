@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  /* Adjusts alignment along main axis */
+  justify-content: center;
+  /* Adjusts alignment along cross axis */
+  align-items: center;
 }
 
 .box {
@@ -12,4 +17,7 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
+  /* NOTE: default value for flex on flex item that doesn't explicitly declare it is equivalent to flex: 1 0 auto */
+
 }
