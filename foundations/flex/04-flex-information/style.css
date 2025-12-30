@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center; /* Better */
 }
 
 img {
@@ -10,7 +11,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
 }
+
+.plant-wrapper {
+  display: flex;
+  gap: 52px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+
+/* Don't need to do display: flex because children items are already in block mode as we want (stacked on top of each other) */
+.plant-item {
+  max-width: 200px;
+}
+
+/* .plant-item div {
+  text-align: center;
+} */
 
 /* do not edit this footer */
 .footer {
